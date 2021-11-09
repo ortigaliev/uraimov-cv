@@ -30,46 +30,106 @@ img{
   height: auto;
 }
 
-
-/* CONTAINER
+/*CONTAINER */
 .container{
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 635px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
 }
-*/
+
 
 /* MAIN CONTENT */
 .main-content{
   display: flex;
   flex-grow: 1;
+  align-items: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.global-wrapper{
-  flex-grow: 1;
+.cv-sidebar {
   width: 100%;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 200px;
+  padding: 0;
+  margin: 0;
+  background-color: #444;
+}
+.cv-contact-list {
+  display: block;
+}
+.cv-contact-item {
 }
 
+.cv-contact-item:first-child{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 18px;
+font-weight: bold;
+}
 
-/* SAYOHAT BLOGIMIZNING CHAP TOMONI */
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 600px;
+.cv-contact-item:not(:first-child){
+list-style: none;
 }
-.hero-content {
+.cv-skills-list {
 }
-.hero-heading {
+.cv-skills-item {
 }
-.hero-link {
+.cv-skills-link {
 }
-.hero-link-text {
+.cv-language-list {
+}
+.cv-language-item {
+}
+.about {
+}
+.persons-img-content {
+}
+.persons-img {
+}
+.person-name {
+}
+.person-current-degree {
+}
+.persons-interest {
+}
+.work-history {
+}
+.work-history-list {
+}
+.work-history-content {
+}
+.work-history-year {
+}
+.work-history-internship {
+}
+.internship-header {
+}
+.internship-current-department {
+}
+.internship-projects-list {
+}
+.internship-projects-item {
+}
+.education-box {
+}
+.education {
+}
+.education-list {
+}
+.education-content {
+}
+.education-year {
+}
+.education-status {
+}
+.education-bachalor {
+}
+.education-bachalor-university {
+}
+.labaratory {
+}
+.labaratory-list {
 }
