@@ -33,7 +33,7 @@ img{
 /*CONTAINER */
 .container{
   width: 100%;
-  max-width: 645px;
+  max-width: 770px;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: auto;
@@ -52,7 +52,7 @@ img{
 
 .cv-sidebar {
   width: 100%;
-  max-width: 210px;
+  max-width: 250px;
   padding: 0;
   margin: 0;
   margin-right: 10px;
@@ -195,7 +195,7 @@ img{
 .cv-language-item-main{
   padding: 5px;
   margin-bottom: 20px;
-  background-color:rgb(0 48 87);
+  background-color: rgb(0 48 87);
   color: #fff;
   border-radius: 10px;
 }
@@ -207,14 +207,31 @@ img{
   cursor: pointer;
 }
 .about {
+  width: 100%;
+  max-width: 500px;
 }
 .persons-img-content {
+  display: flex;
+  align-items: center;
+
 }
 .persons-img {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  padding: 5px;
+  margin-right: 25px;
+  border-radius: 50%;
 }
 .person-name {
+  font-size: 46px;
+  margin: 0;
+  padding: 0;
 }
 .person-current-degree {
+  margin: 0;
+  padding: 0;
+  margin-left: 150px;
 }
 .persons-interest {
 }
