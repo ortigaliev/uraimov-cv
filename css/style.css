@@ -55,7 +55,6 @@ img{
   max-width: 200px;
   padding: 0;
   margin: 0;
-  background-color: #444;
 }
 .cv-contact-list {
   display: block;
@@ -73,6 +72,14 @@ font-weight: bold;
 .cv-contact-item:not(:first-child){
 list-style: none;
 }
+.cv-adress::before{
+background-image: url(../icon/address.svg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+content: "";
+}
+
 .cv-skills-list {
 }
 .cv-skills-item {
