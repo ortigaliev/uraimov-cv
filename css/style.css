@@ -234,20 +234,40 @@ img{
   margin-left: 150px;
 }
 .persons-interest {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
 }
 .work-history {
 }
 .work-history-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  font-weight: bold;
+  color:rgb(0 48 87);
 }
 .work-history-content {
+  display: flex;
+  align-items: flex-start;
+
 }
 .work-history-year {
+  display: block;
+  width: 130px;
+  margin-right: 40px;
+
 }
 .work-history-internship {
 }
 .internship-header {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
 }
 .internship-current-department {
+  margin: 0;
+  padding: 0;
 }
 .internship-projects-list {
 }
@@ -260,6 +280,8 @@ img{
 .education-list {
 }
 .education-content {
+  display: flex;
+  align-items: flex-start;
 }
 .education-year {
 }
