@@ -48,6 +48,10 @@ img{
   align-items: flex-start;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-top: 50px;
+  border: 1px solid #000;
+  box-shadow: 4px 4px 0 0 #ddd;
+
 }
 
 .cv-sidebar {
@@ -269,29 +273,53 @@ img{
   margin: 0;
   padding: 0;
 }
-.internship-projects-list {
-}
-.internship-projects-item {
-}
-.education-box {
-}
-.education {
-}
+
 .education-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  font-weight: bold;
+  color:rgb(0 48 87);
 }
 .education-content {
   display: flex;
   align-items: flex-start;
 }
 .education-year {
+  display: block;
+  width: 140px;
+  margin-right: 40px;
+}
+
+.education-year-master{
+  display: block;
+  width: 140px;
 }
 .education-status {
 }
-.education-bachalor {
+.education-bachalor{
+padding: 0;
+margin: 0;
 }
-.education-bachalor-university {
+
+.education-master {
+  padding: 0;
+  margin: 0;
 }
-.labaratory {
+
+/* SITE-FOOTER */
+.site-footer {
+  background-color
 }
-.labaratory-list {
+.site-bg {
+}
+.footer-person-name {
+}
+.footer-person-social {
+}
+.footer-person-social-link {
+}
+.footer-person-social-item {
+}
+.social-icon {
 }
